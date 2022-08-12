@@ -1,0 +1,75 @@
+#include QMK_KEYBOARD_H
+
+#include "cl4rknova.h"
+#define LAYOUT_wrapper(...) LAYOUT_split_3x5_2(__VA_ARGS__)
+
+char L1K1L[] = "KC_Q" ;
+
+const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
+	[0] = LAYOUT_wrapper(
+
+          _______cl4rkn0v4_layer0_row1_left, _______cl4rkn0v4_layer0_row1_right,
+          _______cl4rkn0v4_layer0_row2_left, _______cl4rkn0v4_layer0_row2_right,
+          _______cl4rkn0v4_layer0_row3_left, _______cl4rkn0v4_layer0_row3_right,
+          _______cl4rkn0v4_layer0_row4_left, _______cl4rkn0v4_layer0_row4_right           ),
+
+	[1] = LAYOUT_wrapper(
+
+          _______cl4rkn0v4_layer1_row1_left, _______cl4rkn0v4_layer1_row1_right, 
+          _______cl4rkn0v4_layer1_row2_left, _______cl4rkn0v4_layer1_row2_right, 
+          _______cl4rkn0v4_layer1_row3_left, _______cl4rkn0v4_layer1_row3_right, 
+          _______cl4rkn0v4_layer1_row4_left, _______cl4rkn0v4_layer1_row4_right 
+
+            
+            ),
+    [2] = LAYOUT_wrapper(
+
+          _______cl4rkn0v4_layer2_row1_left, _______cl4rkn0v4_layer2_row1_right, 
+          _______cl4rkn0v4_layer2_row2_left, _______cl4rkn0v4_layer2_row2_right, 
+          _______cl4rkn0v4_layer2_row3_left, _______cl4rkn0v4_layer2_row3_right, 
+          _______cl4rkn0v4_layer2_row4_left, _______cl4rkn0v4_layer2_row4_right
+
+           
+            ),
+    [3] = LAYOUT_wrapper(
+
+          _______cl4rkn0v4_layer3_row1_left, _______cl4rkn0v4_layer3_row1_right, 
+          _______cl4rkn0v4_layer3_row2_left, _______cl4rkn0v4_layer3_row2_right, 
+          _______cl4rkn0v4_layer3_row3_left, _______cl4rkn0v4_layer3_row3_right, 
+          _______cl4rkn0v4_layer3_row4_left, _______cl4rkn0v4_layer3_row4_right
+
+          
+            ),
+    [4] = LAYOUT_wrapper(
+
+          _______cl4rkn0v4_layer4_row1_left, _______cl4rkn0v4_layer4_row1_right, 
+          _______cl4rkn0v4_layer4_row2_left, _______cl4rkn0v4_layer4_row2_right, 
+          _______cl4rkn0v4_layer4_row3_left, _______cl4rkn0v4_layer4_row3_right, 
+          _______cl4rkn0v4_layer4_row4_left, _______cl4rkn0v4_layer4_row4_right
+        
+            ),
+    [5] = LAYOUT_wrapper(
+
+          _______cl4rkn0v4_layer5_row1_left, _______cl4rkn0v4_layer5_row1_right, 
+          _______cl4rkn0v4_layer5_row2_left, _______cl4rkn0v4_layer5_row2_right, 
+          _______cl4rkn0v4_layer5_row3_left, _______cl4rkn0v4_layer5_row3_right, 
+          _______cl4rkn0v4_layer5_row4_left, _______cl4rkn0v4_layer5_row4_right
+      
+            ),
+    [6] = LAYOUT_wrapper(
+
+          _______cl4rkn0v4_layer6_row1_left, _______cl4rkn0v4_layer6_row1_right, 
+          _______cl4rkn0v4_layer6_row2_left, _______cl4rkn0v4_layer6_row2_right, 
+          _______cl4rkn0v4_layer6_row3_left, _______cl4rkn0v4_layer6_row3_right, 
+          _______cl4rkn0v4_layer6_row4_left, _______cl4rkn0v4_layer6_row4_right
+    
+            ),
+    [7] = LAYOUT_wrapper(
+
+          _______cl4rkn0v4_layer7_row1_left, _______cl4rkn0v4_layer7_row1_right, 
+          _______cl4rkn0v4_layer7_row2_left, _______cl4rkn0v4_layer7_row2_right, 
+          _______cl4rkn0v4_layer7_row3_left, _______cl4rkn0v4_layer7_row3_right, 
+          _______cl4rkn0v4_layer7_row4_left, _______cl4rkn0v4_layer7_row4_right
+  
+            )};
+

@@ -94,5 +94,5 @@
 
 # define _______cl4rkn0v4_layer7_row1_right     KC_TRNS,     KC_TRNS,         KC_TRNS,       KC_TRNS,        KC_DEL
 # define _______cl4rkn0v4_layer7_row2_right     KC_TRNS,     KC_LGUI,         KC_TRNS,       KC_TRNS,        QK_BOOT
-# define _______cl4rkn0v4_layer7_row3_right     KC_COMM,     KC_DOT,          RALT(KC_COMM), RCTL_T(KC_DOT), _______
+# define _______cl4rkn0v4_layer7_row3_right     KC_COMM,     KC_DOT,          RALT(KC_COMM), KC_LEAD, _______
 # define _______cl4rkn0v4_layer7_row4_right     KC_TRNS,     KC_TRNS
